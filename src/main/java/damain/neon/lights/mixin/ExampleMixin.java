@@ -1,4 +1,4 @@
-package net.fabricmc.example.mixin;
+package damain.neon.lights.mixin;
 
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;

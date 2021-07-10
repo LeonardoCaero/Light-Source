@@ -1,6 +1,6 @@
 {
-    "parent": "minecraft:item/generated",
+    "parent": "item/generated",
     "textures": {
-        "layer0": "neonlights:item/test_fragment"
+        "layer0": "neonlights:items/neon_fragment"
     }
 }

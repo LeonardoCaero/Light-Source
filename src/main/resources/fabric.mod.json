@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "neonlights",
   "version": "${version}",
-
   "name": "Neon Lights",
   "description": "Adds new light source blocks",
   "authors": [
@@ -13,10 +12,8 @@
     "homepage": "",
     "sources": ""
   },
-
-  "license": "CC0-1.0",
+  "license": "gpl-3.0",
   "icon": "assets/neonlights/icon.png",
-
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -26,7 +23,6 @@
   "mixins": [
     "neonlights.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",

@@ -12,12 +12,12 @@
     },
     "ambientocclusion": false,
     "textures": {
-        "top": "neonlights:blocks/neon_bar_top",
-        "side": "neonlights:blocks/neon_bar_side"
+        "top": "neonlights:blocks/pruebas",
+        "side": "neonlights:blocks/pruebas"
     },
     "elements": [
-        {   "from": [ 2, 0, 2 ],
-            "to": [ 14, 18, 14 ],
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 32, 32, 8 ],
             "faces": {
                 "north": { "uv": [ 3, 0, 13, 16 ],"texture": "#side" },
                 "south": { "uv": [ 3, 0, 13, 16 ],"texture": "#side" },

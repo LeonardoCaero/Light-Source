@@ -20,7 +20,7 @@ public class ModItems {
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(NeonLights.MOD_ID, "neon_fragment"), NEON_FRAGMENT);
         Registry.register(Registry.ITEM, new Identifier(NeonLights.MOD_ID, "neon_block"), NEON_BLOCK);
-        Registry.register(Registry.ITEM, new Identifier(NeonLights.MOD_ID, "neon_block"), NEON_BAR);
+        Registry.register(Registry.ITEM, new Identifier(NeonLights.MOD_ID, "neon_bar"), NEON_BAR);
     }
 
 }

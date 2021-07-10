@@ -13,6 +13,6 @@ public class ModBlocks {
             .hardness(0.3f).sounds(BlockSoundGroup.GLASS).luminance(15));
 
     public static void registerBlocks(){
-        Registry.register(Registry.BLOCK, new Identifier(NeonLights.MOD_ID, "neon_block"),NEON_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(NeonLights.MOD_ID, "neon_block"), NEON_BLOCK);
     }
 }

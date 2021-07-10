@@ -14,10 +14,13 @@ public class ModItems {
 
     //Block Items
     public static final BlockItem NEON_BLOCK = new BlockItem(ModBlocks.NEON_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem NEON_BAR = new BlockItem(ModBlocks.NEON_BAR, new Item.Settings().group(ItemGroup.DECORATIONS));
+
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(NeonLights.MOD_ID, "neon_fragment"), NEON_FRAGMENT);
         Registry.register(Registry.ITEM, new Identifier(NeonLights.MOD_ID, "neon_block"), NEON_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(NeonLights.MOD_ID, "neon_block"), NEON_BAR);
     }
 
 }

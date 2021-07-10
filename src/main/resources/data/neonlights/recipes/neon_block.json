@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "neonlights:neon_fragment"
+        }
+    },
+    "result": {
+        "item": "neonlights:neon_block",
+        "count": 1
+    },
+    "group": "neonlights"
+}

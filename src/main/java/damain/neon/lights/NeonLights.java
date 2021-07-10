@@ -1,6 +1,6 @@
 package damain.neon.lights;
 
-import damain.neon.lights.registry.ModItems;
+import damain.neon.lights.registry.*;
 import net.fabricmc.api.ModInitializer;
 
 public class NeonLights implements ModInitializer {
@@ -9,6 +9,7 @@ public class NeonLights implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItems.RegisterItems();
+		ModItems.registerItems();
+		ModBlocks.registerBlocks();
 	}
 }

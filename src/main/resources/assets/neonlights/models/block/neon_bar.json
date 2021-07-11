@@ -17,7 +17,7 @@
     },
     "elements": [
         {   "from": [ 2, 0, 2 ],
-            "to": [ 14, 18, 14 ],
+            "to": [ 14, 18, 14 ], 
             "faces": {
                 "north": { "uv": [ 3, 0, 13, 16 ],"texture": "#side" },
                 "south": { "uv": [ 3, 0, 13, 16 ],"texture": "#side" },

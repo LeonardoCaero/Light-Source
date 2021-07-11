@@ -18,5 +18,6 @@ public class NeonLights implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerItems();
 		ModBlocks.registerBlocks();
+		ModEntities.RegisterEntities();
 	}
 }

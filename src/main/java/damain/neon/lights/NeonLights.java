@@ -8,8 +8,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 public class NeonLights implements ModInitializer {
+	
 
-	public static final String MOD_ID = "neonlights";
+	public static final String MOD_ID = "neonlights"; 
 
 	public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "general"), () -> new ItemStack(ModItems.NEON_FRAGMENT));
 

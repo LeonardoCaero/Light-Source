@@ -2,5 +2,6 @@
     "item.neonlights.neon_fragment": "Neon Fragment",
     "block.neonlights.neon_block": "Neon Block",
     "block.neonlights.neon_bar": "Neon Bar",
-    "block.neonlights.pro_build": "Test Block ;)"
+    "block.neonlights.pro_build": "Test Block ;)",
+    "itemGroup.neonlights.general": "Neon Mod"
 }

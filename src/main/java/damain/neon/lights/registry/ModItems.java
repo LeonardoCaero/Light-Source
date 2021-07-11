@@ -10,17 +10,17 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 
     // Items
-    public static final Item NEON_FRAGMENT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final Item NEON_FRAGMENT = new Item(new Item.Settings().group(NeonLights.ITEM_GROUP));
 
     // Block Items
     public static final BlockItem NEON_BLOCK = new BlockItem(ModBlocks.NEON_BLOCK,
-            new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+            new Item.Settings().group(NeonLights.ITEM_GROUP));
 
     public static final BlockItem NEON_BAR = new BlockItem(ModBlocks.NEON_BAR,
-            new Item.Settings().group(ItemGroup.DECORATIONS));
+            new Item.Settings().group(NeonLights.ITEM_GROUP));
 
     public static final BlockItem PRO_BUILD = new BlockItem(ModBlocks.PRO_BUILD,
-            new Item.Settings().group(ItemGroup.DECORATIONS));
+            new Item.Settings().group(NeonLights.ITEM_GROUP));
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(NeonLights.MOD_ID, "neon_fragment"), NEON_FRAGMENT);

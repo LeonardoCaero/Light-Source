@@ -2,15 +2,10 @@ package damain.neon.lights.registry;
 
 import damain.neon.lights.NeonLights;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-// import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
-// import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.block.*;
 import net.minecraft.sound.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-
-// import net.minecraft.util.shape.VoxelShape;
-// import net.minecraft.world.*;
 
 public class ModBlocks {
 
@@ -43,12 +38,6 @@ public class ModBlocks {
       .luminance(15)
       .nonOpaque()
   );
-
-  // @Override
-  // public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos
-  // pos, ShapeContext context) {
-  // return VoxelShapes.cuboid(0f, 0f, 0f, 1f, 1.0f, 0.5f);
-  // }
 
   public static void registerBlocks() {
     Registry.register(
